@@ -5,8 +5,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class LoginController {
-    @RequestMapping(value="/member/list")
-    public void memberAction(){
+    @RequestMapping(value="/member/login")
+    public void loginAction(){
+        
+    }
+    @RequestMapping(value="/member/logout")
+    public void logoutAction(){
         
     }
 }
