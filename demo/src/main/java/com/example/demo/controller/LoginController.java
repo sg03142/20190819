@@ -13,4 +13,8 @@ public class LoginController {
     public void logoutAction(){
         
     }
+    @RequestMapping(value="/member/signin")
+    public void signinAction(){
+        
+    }
 }
